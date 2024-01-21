@@ -4,8 +4,271 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero Travel</title>
+    <link rel="stylesheet" href="style/color.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <style>
+        .titel{
+ position: absolute;
+ font-size: 50px;
+ color: black;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.paragrap-description{
+    position: absolute;
+ font-size: 20px;
+ color: bisque;
+  bottom: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.item{
+    position: absolute;
+    bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    left: 100px;
+    border-radius: 2px;
+background: rgba(255, 255, 255, 0.30);
+}
+.icon {
+    /* width: 20%; */
+    /* height: 10%; */
+  border: 2px;
+  border-radius: 2px;
+  font-size: 20px;
+  background-color: white;
+  background-image: url(Images/a3.svg);
+  background-position: center, right; 
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-size: 10px;
+  justify-content: space-between;
+
+}
+#icon{
+    width: 20%;
+    height: 10%;
+   text-align: center;
+  border: 2px;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: #FF5400;
+  background-image: url(Images/a4.svg);
+  background-position: 20px; 
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-size: 10px;
+}
+.box{
+    width: 20%;
+    height: 10%;
+    text-align: center;
+  border: 2px;
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 10px;
+}
+    </style>
+   
 </head>
-<body>
+<body> 
+    <header class="titel-color" >
+        <nav class="header-section" >
+            <div class="nav-container">
+                <img src="Images/a1.png" alt="">
+                <p class="heading">Hero <span style="color: #FF5400;" >Travel</span></p>
+
+            </div>
+            <div class="item-container">
+              <a href=""> <span style="color: #FF5400;" >Home</span> </a>
+              <a href="">Packages</a>
+              <a href="">Testimonial</a>
+              <a href="">Blog</a>
+              <a href="">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner-containar">
+            <img src="Images/a2.png" alt="">
+            <div class="titel">Explore Your Travel</div>
+            <div class="paragrap-description">
+            <p>A Day in the Life of a Reforestation Volunteer in Bangladesh</p>
+            </div>
+          <form class="item">
+            <input class="box" type="text" placeholder="where go">
+            <input class="icon" type="text" placeholder="when">
+            <input class="icon" type="text" placeholder="Select Type"> 
+            <input id="icon"  type="text" placeholder="Find Now"> 
+          </form>
+        </section>
+        <section class="container">
+          <div class="text-container">
+            <h2 class="heading-container">Our Popular Tours</h2>
+            <p class="paragrap-item">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+            <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+            <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+            <p class="paragrap-item">Amet consectetur. Vulputate commodo felis molestie risus 
+              ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.</p>
+                <br>
+              <button id="button">Read More</button>
+
+          </div>
+          <div class="image-container">
+            <img src="Images/a5.png" alt="">
+          </div>
+        </section>
+        <section class="feature-section">
+          <div class="imgage-section">
+            <div class="grid-item-6">
+              <img src="Images/a6.png" alt="">
+              <p>Maldives</p>
+            </div>
+            <div class="grid-item-7">
+              <img src="Images/a7.png" alt="">
+              <P>Indonesia</P>
+            </div>
+            <div class="grid-item-8">
+              <img src="Images/a8.png" alt="">
+              <p>Srilanka</p>
+            </div>
+          <div class="grid-item-9">
+            <img src="Images/a9.png" alt="">
+            <p>North America</p>
+          </div>
+          <div class="grid-item-10">
+            <img src="Images/a10.png" alt="">
+            <p>Kashmir</p>
+          </div>
+          <div class="grid-item-11">
+            <img src="Images/a11.png" alt="">
+            <p>Bangladesh</p>
+          </div>
+          <div class="grid-item-12">
+            <img src="Images/a12.png" alt="">
+            <p>Bandarban</p>
+          </div>
+          </div>
+        </section>
+        <section class="titel-section">
+          <div class="tite-bar">
+            <h2 style="text-align: center;">Why Choose Us</h2>
+            <p style="text-align: center; padding: 5px;">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+          </div>
+        </section>
+        <section class="grid-container">
+          <div class="image-container1">
+            <img style="padding: 10px;" src="Images/hotel 1.svg" alt="">
+            <h2 style="text-align: center;">Handpicked Hotels</h2>
+            <p style="padding: 10px; color: #5A5A5D;">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          </div>
+          <div class="image-container2">
+            <img style="padding: 20px;" src="Images/price-tag 1.svg" alt="">
+            <h2 style="text-align: center;">Best Price Guarantee</h2>
+            <p style="padding: 10px; color: #5A5A5D;">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          
+          </div>
+          <div class="image-container3">
+            <img style="padding: 10px;" src="Images/map 1.svg" alt="">
+            <h2 style="text-align: center;">World Class Service</h2>
+            <p style="padding: 10px; color: #5A5A5D;">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          </div>
+
+        </section>
+    </main>
+    <footer>
+      <section class="background-container">
+        <div class="titel-container">
+          <h2 style="text-align: center;">Deals & Discounts</h2>
+          <p style="padding: 10px; color: #5A5A5D; text-align: center;">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+        </div>
+        <div class="banner-section">
+          <div class="boder-section">
+            <nav>
+              <div class="headin-bar">
+                <img src="Images/Frame (3).svg" alt="">
+                <a href="">7 Day / 6 Night</a>
+                <img src="Images/Frame (4).svg" alt="">
+                <a href="">Max : 10</a>
+                <img src="Images/Frame (5).svg" alt="">
+                <a href="">Malaysia</a>
+              </div>
+            </nav>
+            <div class="description">
+              <h2>Tour To Satorini</h2>
+              <p1>Amet consectetur. Vulputate commodo felis 
+                molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                <p2>Price: $1300-$1500</p>
+                <button class="button-2">Book Now</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="background-container-2">
+        <div class="banner-section">
+          <div class="boder-section">
+            <nav>
+              <div class="headin-bar">
+                <img src="Images/Frame (3).svg" alt="">
+                <a href="">7 Day / 6 Night</a>
+                <img src="Images/Frame (4).svg" alt="">
+                <a href="">Max : 10</a>
+                <img src="Images/Frame (5).svg" alt="">
+                <a href="">Malaysia</a>
+              </div>
+            </nav>
+            <div class="description">
+              <h2>Tour To Satorini</h2>
+              <p1>Amet consectetur. Vulputate commodo felis 
+                molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                <p2>Price: $1300-$1500</p>
+                <button class="button-2">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="background-container-3">
+        <div class="banner-section">
+          <div class="boder-section">
+            <nav>
+              <div class="headin-bar">
+                <img src="Images/Frame (3).svg" alt="">
+                <a href="">7 Day / 6 Night</a>
+                <img src="Images/Frame (4).svg" alt="">
+                <a href="">Max : 10</a>
+                <img src="Images/Frame (5).svg" alt="">
+                <a href="">Malaysia</a>
+              </div>
+            </nav>
+            <div class="description">
+              <h2>Tour To Satorini</h2>
+              <p1>Amet consectetur. Vulputate commodo felis 
+                molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                <p2>Price: $1300-$1500</p>
+                <button class="button-2">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer-section">
+        <div class="nav-section">
+          <img width="30px" height="30px" src="Images/a1.png" alt="">
+          <h2>Hero <span style="color: #FF5400;">Travel</span> </h2>
+        </div>
+        <div class="paragrap-description-1">
+          <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+        </div>
+        <div class="icon-bar">
+          <img src="Images/Social.svg" alt="">
+        </div>
+      </section>
+
+    </footer>
     
 </body>
 </html>
